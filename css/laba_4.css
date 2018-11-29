@@ -1,0 +1,390 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+.wrap{
+	min-height: calc(100vh - 121px);
+}
+
+/* Style for "Rectangle" */
+header{
+	width: 100%;
+	height: 669px;
+    background: linear-gradient(to top, #00f1ff 0%, #00a8b2 100%);
+    position: relative;
+
+	
+}
+
+.img_head{
+	width: 100%;
+    height: 669px;
+	opacity: 0.7;
+	position: absolute;
+	
+	
+}
+.logo_1{
+	width: 276px;
+	height: 109px;
+	position: absolute;
+
+	
+	margin: 172px 0 0 246px;
+/*s*/	
+
+}
+.sadf{
+	/* Style for "allRegiste" */
+width: 377px;
+height: 422px;
+box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7);
+background-color: #333333;
+opacity: 0.9;
+position: absolute;
+margin: 129px 0 0 1000px;
+}
+.Iname{
+	width: 347px;
+height: 40px;
+background-color: #ffffff;
+margin: 23px 0 0 13px;
+font-size: 18px;	
+}
+.Iemail{
+	width: 347px;
+height: 40px;
+background-color: #ffffff;
+margin: 15px 0 0 13px;
+font-size: 18px;	
+
+}
+.Ipassword{
+	width: 347px;
+height: 40px;
+background-color: #ffffff;
+margin: 15px 0 0 13px;
+font-size: 18px;	
+}
+.tex{
+	/* Style for "If you’re" */
+width: 317px;
+height: 40px;
+color: #ffffff;
+font-family: Catamaran;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+/* Text style for "If you’re" */
+letter-spacing: 1.6px;
+margin: 14px 0 0 13px;
+}
+.Icode{
+	/* Style for "Rectangle" */
+width: 347px;
+height: 40px;
+background-color: #ffffff;
+margin: 8px 0 0 13px;
+font-size: 18px;
+}
+.Iregist{
+	/* Style for "Register n" */
+/* Style for "registerNo" */
+width: 347px;
+height: 40px;
+background-color: #ff6600;
+font-family: "Catamaran - Black";
+font-size: 30px;
+
+/* Text style for "Register n" */
+letter-spacing: 3px;
+margin: 15px 0 0 13px;
+}
+
+.but_1{
+	/* Style for "greyRestan" */
+width: 190px;
+height: 58px;
+background-color: #ffffff;
+opacity: 0.7;
+border:none;
+
+/* Style for "Sign in" */
+
+color: #333333;
+font-family: Catamaran;
+font-size: 18px;
+font-weight: 400;
+line-height: 36px;
+/* Text style for "Sign in" */
+letter-spacing: 1.8px;	
+margin: -57px 0 0 187px;
+position: absolute;
+}
+.b_2{
+/* Style for "Join us" */
+
+color: #ffffff;
+font-family: Catamaran;
+font-size: 18px;
+font-weight: 400;
+line-height: 36px;
+/* Text style for "Join us" */
+letter-spacing: 1.8px;
+margin:21px 0 0 63px; 
+}
+
+p.talk{
+	/* Style for "Talk to pe" */
+	width: 331px;
+	height: 88px;
+	color: #333333;
+	font-family: Catamaran;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 54px;
+	/* Text style for "T, alk to" */
+	letter-spacing: 3.6px;
+	margin: 336px 0 0 219px;
+	position: absolute;
+	text-indent: 30px;
+
+
+
+}
+.what{
+	width: 316px;
+	height: 31px;
+	color: #00a8b2;
+	font-family: "Catamaran - Black";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	/* Text style for ",  ," */
+	
+	letter-spacing: 3px;
+	/* Text style for "What is El" */
+	letter-spacing: 3px;
+	position: relative;
+	
+	margin: 72px auto 0 auto;
+}
+.web{
+	/* Style for "Web platfo" */
+	width: 764px;
+	height: 40px;
+	color: #333333;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	/* Text style for "Web platfo" */
+	letter-spacing: 1.6px;
+	position: relative;
+	margin: 17px auto 0 auto;
+}
+.how{
+	/* Style for "How it wor" */
+	width: 232px;
+	height: 24px;
+	color: #00a8b2;
+	font-family: "Catamaran - Black";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	/* Text style for ",  ," */
+	
+	letter-spacing: 3px;
+	/* Text style for "How it wor" */
+	letter-spacing: 3px;
+	position: relative;
+	margin: 55px auto 0 auto;
+}
+.two_f{
+	margin: 54px 0 0 15%;
+
+}
+.three_f{
+	margin:54px 0 0 16%;
+}
+.four_f{
+	margin:54px 0 0 15%;
+}
+.five_f{
+	margin:54px 0 0 16%;
+}
+
+.Register{
+	/* Style for "Start Regi" */
+	color: #333333;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 36px;
+
+
+/* Text style for "Register o" */
+/*font-family: "Catamaran Light";
+font-weight: 300;
+letter-spacing: 1.6px;*/
+	margin: 10px 0 0 13.5%;
+ 
+}
+.Start{
+	color: #00a8b2;
+	font-family: "Catamaran - Black";
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 1.8px;
+	margin: 17px 0 0 15.8%;
+	
+}
+.Translate{
+	/* Style for "Translate" */
+ 
+color: #333333;
+font-family: Catamaran;
+font-size: 16px;
+font-weight: 300;
+/* Text style for "Translate" */
+color: #00a8b2;
+font-family: "Catamaran - Black";
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 1.8px;
+line-height: 36px;
+margin: -75px 0 0 35.5%;
+
+
+}
+.Write{
+	/* Text style for "Write word" */
+font-family: "Catamaran Light";
+font-weight: 300;
+letter-spacing: 1.6px;
+line-height: 24px;
+text-align: center;
+margin:  0 0 0;
+
+}
+.tre{
+	margin: -0% 0 0 -23%;
+}
+.Sht{
+	/* Style for "Share Shar" */
+
+color: #333333;
+font-family: Catamaran;
+font-size: 16px;
+font-weight: 300;
+/* Text style for "Share" */
+color: #00a8b2;
+font-family: "Catamaran - Black";
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 1.8px;
+line-height: 36px;
+margin: -7% 0 0 57%;
+
+}
+.Share{
+	/* Text style for "Share the" */
+font-family: "Catamaran Light";
+font-weight: 300;
+letter-spacing: 1.6px;
+line-height: 24px;
+text-align: center;
+
+}
+.shr{
+	margin: 0 0 0 17%;
+
+}
+.Cre{
+	/* Style for "Create Cre" */
+width: 210px;
+height: 41px;
+color: #333333;
+font-family: Catamaran;
+font-size: 16px;
+font-weight: 300;
+/* Text style for "Create" */
+color: #00a8b2;
+font-family: "Catamaran - Black";
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 1.8px;
+line-height: 36px;
+margin: -8.6% 0 0 78%;
+}
+.Create{
+	/* Text style for "Create you" */
+font-family: "Catamaran Light";
+font-weight: 300;
+letter-spacing: 1.6px;
+line-height: 24px;
+margin: 0 0 0 73%;
+
+}
+main{
+	margin-bottom: 80px;
+}
+.foot{
+	/* Style for "Rectangle" */
+width: 100%;
+height: 121px;
+background-color: #333333;
+
+
+
+}
+
+.logo_2{
+	margin: 28px 0 0 58px;
+
+}
+.conn{
+	/* Style for "Connect wi" */
+
+color: #ffffff;
+font-family: Catamaran;
+font-size: 16px;
+font-weight: 400;
+line-height: 36px;
+/* Text style for "C, onnect" */
+letter-spacing: 1.6px;
+/*margin: -80px 0 0 1100px; */
+}
+.emel{
+	/* Style for "Connect wi" */
+
+color: #ffffff;
+font-family: Catamaran;
+font-size: 16px;
+font-weight: 400;
+line-height: 36px;
+/* Text style for "C, onnect" */
+letter-spacing: 1.6px;
+}
+.gfh{
+margin: -80px 0 0 1000px;
+}
+.gr_1{
+	/* Style for "Asset 14 c" */
+width: 45px;
+height: 5px;
+background-color: #ffffff;
+margin: -55px 0 0 950px;
+}
+.gr_2{
+	/* Style for "Asset 14 c" */
+width: 45px;
+height: 5px;
+background-color: #ffffff;
+margin: -6px 0 0 1135px;
+}
+
+
+
+
