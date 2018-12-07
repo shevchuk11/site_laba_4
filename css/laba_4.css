@@ -143,7 +143,7 @@ letter-spacing: 1.8px;
 margin:21px 0 0 63px; 
 }
 
-p.talk{
+.talk{
 	/* Style for "Talk to pe" */
 	width: 331px;
 	height: 88px;
@@ -209,132 +209,18 @@ p.talk{
 	position: relative;
 	margin: 55px auto 0 auto;
 }
-.two_f{
-	margin: 54px 0 0 15%;
-
+div{
+	display: block;
 }
-.three_f{
-	margin:54px 0 0 16%;
-}
-.four_f{
-	margin:54px 0 0 15%;
-}
-.five_f{
-	margin:54px 0 0 16%;
-}
-
-.Register{
-	/* Style for "Start Regi" */
-	color: #333333;
-	font-family: Catamaran;
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 36px;
-
-
-/* Text style for "Register o" */
-/*font-family: "Catamaran Light";
-font-weight: 300;
-letter-spacing: 1.6px;*/
-	margin: 10px 0 0 13.5%;
- 
-}
-.Start{
-	color: #00a8b2;
-	font-family: "Catamaran - Black";
-	font-size: 18px;
-	font-weight: 400;
-	letter-spacing: 1.8px;
-	margin: 17px 0 0 15.8%;
+.ar{
+	display: flex;
+	justify-content: space-around;
+	margin: 50px 0 0 0;
 	
-}
-.Translate{
-	/* Style for "Translate" */
- 
-color: #333333;
-font-family: Catamaran;
-font-size: 16px;
-font-weight: 300;
-/* Text style for "Translate" */
-color: #00a8b2;
-font-family: "Catamaran - Black";
-font-size: 18px;
-font-weight: 400;
-letter-spacing: 1.8px;
-line-height: 36px;
-margin: -75px 0 0 35.5%;
-
 
 }
-.Write{
-	/* Text style for "Write word" */
-font-family: "Catamaran Light";
-font-weight: 300;
-letter-spacing: 1.6px;
-line-height: 24px;
-text-align: center;
-margin:  0 0 0;
 
-}
-.tre{
-	margin: -0% 0 0 -23%;
-}
-.Sht{
-	/* Style for "Share Shar" */
 
-color: #333333;
-font-family: Catamaran;
-font-size: 16px;
-font-weight: 300;
-/* Text style for "Share" */
-color: #00a8b2;
-font-family: "Catamaran - Black";
-font-size: 18px;
-font-weight: 400;
-letter-spacing: 1.8px;
-line-height: 36px;
-margin: -7% 0 0 57%;
-
-}
-.Share{
-	/* Text style for "Share the" */
-font-family: "Catamaran Light";
-font-weight: 300;
-letter-spacing: 1.6px;
-line-height: 24px;
-text-align: center;
-
-}
-.shr{
-	margin: 0 0 0 17%;
-
-}
-.Cre{
-	/* Style for "Create Cre" */
-width: 210px;
-height: 41px;
-color: #333333;
-font-family: Catamaran;
-font-size: 16px;
-font-weight: 300;
-/* Text style for "Create" */
-color: #00a8b2;
-font-family: "Catamaran - Black";
-font-size: 18px;
-font-weight: 400;
-letter-spacing: 1.8px;
-line-height: 36px;
-margin: -8.6% 0 0 78%;
-}
-.Create{
-	/* Text style for "Create you" */
-font-family: "Catamaran Light";
-font-weight: 300;
-letter-spacing: 1.6px;
-line-height: 24px;
-margin: 0 0 0 73%;
-
-}
 main{
 	margin-bottom: 80px;
 }
