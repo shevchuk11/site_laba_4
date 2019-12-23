@@ -1,0 +1,238 @@
+*{
+	padding: 0;
+	margin:0;
+}
+.wrapper{
+	/*margin-left:150px;*/
+	/*width: 980px;*/
+}
+/*.wrapper{
+   width:600px;
+   height:100px;
+   padding:30px;   Добавлено для наглядности 
+   margin:0  auto;
+   background:#dfdfdf;
+   font-family:Arial,  Helvetica, sans-serif;
+}*/.wrapper span { display:inline-block; }
+.el1 { vertical-align:middle; font-size:28px; }
+.el2 { 
+	vertical-align:middle; 
+	font-size:11px;
+	margin-left: 64px;
+
+	font-family: Clear Sans;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center; 
+}
+.el3 a { 
+	margin-left: 69px;
+	vertical-align:middle; 
+	top: 29px;
+
+	font-family: Clear Sans;
+	font-size: 14px;
+	line-height: 16px;
+
+	text-align: justify;
+	text-decoration-line: underline;
+
+	color: #3A4047; }
+.el4 a { 
+	vertical-align:middle;
+	margin-left: 28px;
+	margin-top:59px;
+
+	font-family: Clear Sans;
+	font-size: 14px;
+	line-height: 16px;
+	/* identical to box height */
+
+	text-align: right;
+	text-decoration-line: underline;
+
+	color: #3A4047; }
+.el5{
+	margin-left: 19px;
+	vertical-align:middle; 
+	
+}
+
+
+
+.fac {padding-top: 5px;
+	right: 200px;
+}
+.tel{
+	font-family: Clear Sans;
+font-size: 16px;
+line-height: 19px;
+text-align: right;
+
+color: #3A4047;
+}
+.menu, .wrapper{
+	text-align: center;
+}
+.li{
+	display: inline;
+	padding:0 20px 0 20px;
+	font-family: Clear Sans;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+border-right: 1px solid #E8EDF2;
+transform: rotate(90deg);
+
+color: #3A4047; 
+}
+.li a{
+	color:#3A4047;
+	text-decoration:none;
+}
+.li a:hover{
+	color: #1AB0CE;
+	border-top:1px solid  #1AB0CE;
+	padding-top:16px;
+}
+main{
+	padding-top: 20px;
+	margin:0;
+
+}
+.back{
+	    width: 100%;
+    height: 500px;
+    background-image: url(../images/Rectangle.png);
+    text-align: center;
+    /*vertical-align: center;*/
+    /*padding-top: 20px;*/
+}
+.pech{
+	padding-top: 110px;
+	padding-bottom: 20px;
+	font-family: Clear Sans;
+font-size: 57px;
+line-height: 67px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.palka{
+	/*padding-top: 50px;*/
+	width: 120px;
+	height: 0px;
+	border: 1px solid #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dost{padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: Clear Sans;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.but{
+	background: #1AB0CE;
+	border:0;
+	color: white;
+	width: 200px;
+	height: 48px;
+	font-size: 16px;
+
+}
+.prod{
+	text-align: center;
+	font-family: Clear Sans;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+padding-top: 10px;
+color: #3A4047;
+}
+/*.maindiv{
+	width: 370px;
+	height: 290px;
+	border: 1px solid #DCE1E6;
+box-sizing: border-box;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}*/
+.maindiv{
+	padding-top: 30px;
+	display: flex;
+    justify-content: space-around;
+    padding-right: 140px;
+    padding-left: 140px;
+    
+	background-image: url(https://avatanplus.com/files/resources/mid/599b500f7bf2015e06b0bc94.png) ;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1000px;
+    background-position-y: 60%;
+    background-color: rgba(255, 255, 255, 0.2);
+     background-blend-mode: lighten;
+}
+.img1{
+	float: left;
+	padding:25px;
+}
+
+.div1, .div2, .div3 {
+	width: 370px;
+	
+	border: 1px solid #DCE1E6;
+	box-sizing: border-box;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+
+
+}
+.of{
+	font-family: Clear Sans;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+margin-left:8px;
+margin-top: 20px;
+
+color: #3A4047;
+}
+.pr{
+	display: inline-block;
+	text-align: center;
+}
+.ofprod{
+list-style-type: none;
+font-family: Clear Sans;
+font-size: 14px;
+line-height: 16px;
+
+color: #3A4047;
+text-align: initial;
+padding-top:10px;
+padding-bottom: 15px;
+margin-left: 12px;}
+/*margin-top: 20px;}*/
+.rek2, .rek1{
+	/*display: inline;*/
+	list-style-type: none;
+font-family: Clear Sans;
+font-size: 14px;
+line-height: 16px;
+
+color: #3A4047;
+text-align: initial;
+padding-top:10px;
+padding-bottom: 15px;
+margin-left: 12px;
+}
+.ule2{
+	float: right;
+	margin-top:-200px;
+	/*padding-left:500px;*/
+}

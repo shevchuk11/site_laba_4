@@ -1,15 +1,19 @@
 @font-face{
 	font-family: "Catamaran-Black";
-	src: url("./fonts/Catamaran-Black.ttf") format("truetype");
-	font-style: black;
-	font-weight: black;
+	src: url("../fonts/Catamaran-Black.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family: "Catamaran Light";
+	src: url("../fonts/Catamaran-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
 }
 *{
 	padding: 0;
 	margin: 0;
-
 }
-
 .wrap{
 	min-height: calc(100vh - 121px);
 }
@@ -19,38 +23,48 @@ header{
 	width: 100%;
 	height: 669px;
     background: linear-gradient(to top, #00f1ff 0%, #00a8b2 100%);
-    position: relative;
-
-	
+    position: relative;	
 }
+.St{
+	text-align: center;
 
+}
+.Start{
+	color: #00a8b2;
+font-family: "Catamaran-Black";
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 1.8px;
+line-height: 36px;
+}
+.Register{
+	font-family: "Catamaran Light";
+font-weight: 300;
+letter-spacing: 1.6px;
+line-height: 24px;
+}
 .img_head{
 	width: 100%;
     height: 669px;
 	opacity: 0.7;
-	position: absolute;
-	
-	
+	position: absolute;	
 }
 .logo_1{
 	width: 276px;
 	height: 109px;
-	position: absolute;
-
-	
-	margin: 172px 0 0 246px;
-/*s*/	
+	position: absolute;	
+	margin: 172px 0 0 246px;	
 
 }
 .sadf{
 	/* Style for "allRegiste" */
-width: 377px;
-height: 422px;
-box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7);
-background-color: #333333;
-opacity: 0.9;
-position: absolute;
-margin: 129px 0 0 1000px;
+	width: 377px;
+	height: 422px;
+	box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7);
+	background-color: #333333;
+	opacity: 0.9;
+	position: absolute;
+	margin: 129px 0 0 60%;
 }
 .Iname{
 	width: 347px;
@@ -103,46 +117,40 @@ height: 40px;
 background-color: #ff6600;
 font-family: "Catamaran-Black";
 font-size: 30px;
-
 /* Text style for "Register n" */
 letter-spacing: 3px;
 margin: 15px 0 0 13px;
 border: none;
 }
-
 .but_1{
 	/* Style for "greyRestan" */
-width: 190px;
-height: 58px;
-background-color: #ffffff;
-opacity: 0.7;
-border:none;
-
-/* Style for "Sign in" */
-
-color: #333333;
-font-family: Catamaran;
-font-size: 18px;
-font-weight: 400;
-line-height: 36px;
-/* Text style for "Sign in" */
-letter-spacing: 1.8px;	
-margin: -57px 0 0 187px;
-position: absolute;
+	width: 190px;
+	height: 58px;
+	background-color: #ffffff;
+	opacity: 0.7;
+	border:none;
+	/* Style for "Sign in" */
+	color: #333333;
+	font-family: Catamaran;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 36px;
+	/* Text style for "Sign in" */
+	letter-spacing: 1.8px;	
+	margin: -57px 0 0 187px;
+	position: absolute;
 }
 .b_2{
 /* Style for "Join us" */
-
-color: #ffffff;
-font-family: Catamaran;
-font-size: 18px;
-font-weight: 400;
-line-height: 36px;
-/* Text style for "Join us" */
-letter-spacing: 1.8px;
-margin:21px 0 0 63px; 
+	color: #ffffff;
+	font-family: Catamaran;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 36px;
+	/* Text style for "Join us" */
+	letter-spacing: 1.8px;
+	margin:21px 0 0 63px; 
 }
-
 .talk{
 	/* Style for "Talk to pe" */
 	width: 331px;
@@ -157,33 +165,29 @@ margin:21px 0 0 63px;
 	margin: 336px 0 0 219px;
 	position: absolute;
 	text-indent: 30px;
-
-
-
 }
 .what{
-	width: 316px;
-	height: 31px;
+	
 	color: #00a8b2;
 	font-family: "Catamaran-Black";
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 36px;
 	/* Text style for ",  ," */
-	
 	letter-spacing: 3px;
 	/* Text style for "What is El" */
 	letter-spacing: 3px;
-	position: relative;
-	
-	margin: 72px auto 0 auto;
+	 display: flex;
+	  justify-content: center;
+	  align-content: space-between;
+	  margin-top: 70px;
 }
 .web{
 	/* Style for "Web platfo" */
 	width: 764px;
 	height: 40px;
 	color: #333333;
-	font-family: Catamaran;
+	font-family: "Catamaran";
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 24px;
@@ -194,20 +198,20 @@ margin:21px 0 0 63px;
 }
 .how{
 	/* Style for "How it wor" */
-	width: 232px;
-	height: 24px;
+	
 	color: #00a8b2;
-	font-family: "Catamaran - Black";
+	font-family: "Catamaran-Black";
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 36px;
 	/* Text style for ",  ," */
-	
 	letter-spacing: 3px;
 	/* Text style for "How it wor" */
 	letter-spacing: 3px;
-	position: relative;
-	margin: 55px auto 0 auto;
+	display: flex;
+  justify-content: center;
+  align-content: space-between;
+  margin-top: 50px;
 }
 div{
 	display: block;
@@ -215,68 +219,52 @@ div{
 .ar{
 	display: flex;
 	justify-content: space-around;
-	margin: 50px 0 0 0;
-	
-
-}
-
-
-main{
-	margin-bottom: 80px;
+	margin: 50px 0 0 0;	
 }
 .foot{
 	/* Style for "Rectangle" */
-width: 100%;
-height: 121px;
-background-color: #333333;
-
-
+	width: 100%;
+	height: 121px;
+	background-color: #333333;
+	margin-top: 50px;
 
 }
-
 .logo_2{
 	margin: 28px 0 0 58px;
+}
+.rd{
+
+	margin: -30px 0 0 70%; 
+	text-align: center;
+}
+.gr_1{
+	width: 45px;
+	height: 5px;
+	background-color: #ffffff;
+	margin: -40px 0 0 75%;
+
+}
+.gr_2{
+	width: 45px;
+	height: 5px;
+	background-color: #ffffff;
+	margin: -46px 0 0 92%;
 
 }
 .conn{
-	/* Style for "Connect wi" */
-
-color: #ffffff;
-font-family: Catamaran;
-font-size: 16px;
-font-weight: 400;
-line-height: 36px;
-/* Text style for "C, onnect" */
-letter-spacing: 1.6px;
-/*margin: -80px 0 0 1100px; */
+	color: #ffffff;
+	font-family: "Catamaran";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36px;
 }
 .emel{
-	/* Style for "Connect wi" */
-
-color: #ffffff;
-font-family: Catamaran;
-font-size: 16px;
-font-weight: 400;
-line-height: 36px;
-/* Text style for "C, onnect" */
-letter-spacing: 1.6px;
-}
-.gfh{
-margin: -80px 0 0 1000px;
-}
-.gr_1{
-	/* Style for "Asset 14 c" */
-width: 45px;
-height: 5px;
-background-color: #ffffff;
-margin: -55px 0 0 950px;
-}
-.gr_2{
-	/* Style for "Asset 14 c" */
-width: 45px;
-height: 5px;
-background-color: #ffffff;
-margin: -6px 0 0 1135px;
+	color: #ffffff;
+	font-family: "Catamaran";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36px;
+	list-style-type: none;
 }
 
 
